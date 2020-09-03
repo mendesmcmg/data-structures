@@ -19,3 +19,13 @@
 # Não primo.
 # print(primo(131))
 # Primo.
+
+def primo(num):
+  message = 'Não primo.'
+  for element in range(2, num):
+      if num > 1:
+        if (num % element) == 0:
+          break
+        else:
+          message = 'Primo.'
+  return message
