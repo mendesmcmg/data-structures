@@ -63,3 +63,32 @@
 
 # Result
 # O coelho pode escapar pelo buraco (2.500, 2.500).
+
+import math
+
+num_buracos = int(input())
+
+coelhox, coelhoy = [float(coord) for coord in input().split()]
+
+rapox, rapoy = [float(coord) for coord in input().split()]
+
+escapax = None
+escapay = None
+
+for number in range(num_buracos):
+  buracox, buracoy = [float(coord) for coord in input().split()]
+
+  distcoe = math.sqrt(((coelhox-buracox)**2) + ((coelhoy-buracoy)**2))
+  distrapo = math.sqrt(((rapox-buracox)**2) + ((rapoy-buracoy)**2))
+
+  if distrapo < 2*distcoe:
+    if (number >= num_buracos):
+      print('O coelho nao pode escapar.')
+  elif escapax is None:
+    escapax = buracox
+    escapay = buracoy
+    print(f'O coelho pode escapar pelo buraco ({escapax:.3f}, {escapay:.3f}).')
+    break
+
+if escapax is None:
+ print('O coelho nao pode escapar.')
