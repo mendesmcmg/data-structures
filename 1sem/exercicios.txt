@@ -1,0 +1,27 @@
+O URI Online Judge é uma ferramenta muito interessante para praticar programação. O próprio sítio tem todas as informações, mas destacamos estas:
+
+Há exemplos de soluções em diferentes linguagens de programação? Sim, visite a página de exemplos.
+
+Porque você continua recebendo "wrong answer" ( e outros problemas)? Provavelmente por que algo está errado. Aproveite para visitar a página de erros.
+
+Como posso exercitar alguns conceitos de APC? PRATICANDO! Sugestões:
+Todos os de nível "iniciante". Ou, pelo menos, esses: 
+
+1036, 1038, 1040, 1041, 1042, 1043, 1044, 1045, 1048, 1049, 1050, 1051, 1052, 1060, 1064, 1065, 1066, 1070, 1072, 1074, 
+1075, 1078, 1079, 1080, 1094, 1095, 1096, 1097, 1098, 1099, 1101, 1113, 1114, 1115, 1116, 1117, 1118, 1131, 1132, 1133, 
+1134, 1143, 1144, 1145, 1146, 1149, 1150, 1154, 1155, 1156, 1157, 1158, 1159, 1160, 1164, 1165, 1172, 1173, 1174, 1175, 
+1176, 1177, 1178, 1179, 1180, 1182, 1183, 1184, 1186, 1188, 1189, 1190, 1478, 1541.
+
+Sequencial: 1009, 1017, 1018, 1020, 1021
+Condicional: 1035, 1037, 1046, 1047, 1061
+Repetição: 1059, 1067, 1071, 1073, 1142
+Funções: 1151, 1153, 1155
+Vetores: 1181, 1185, 1187, 1435, 1534
+Strings: 1168, 1192, 1238, 1253, 1332
+
+Como posso exercitar para ED? PRATICANDO! Sugestões:
+Todos os de nível "Estruturas e Bibliotecas".
+Pilha
+Fila
+Árvore Binária: 1200, 1201
+Grafos
