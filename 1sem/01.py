@@ -34,5 +34,3 @@ def remove_duplicatas(lista):
     return lista_final
 
 print(remove_duplicatas(lista))
-
-        
