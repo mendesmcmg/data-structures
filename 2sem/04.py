@@ -21,3 +21,20 @@
 # Carlos Gabriel Joao Vitor 4
 # Pessoa da frente: Carlos
 # Pessoa do fim: Vitor
+
+lista = input().split()
+fila = list()
+avanco = 0
+
+for elemento in lista:
+  if not elemento.isnumeric():
+    fila.append(elemento)
+  else:
+    avanco = int(elemento)
+
+for contador in range(0, avanco):
+  fila.append(fila[0])
+  fila.pop(0)
+
+print(f'Pessoa da frente: {fila[0]}')
+print(f'Pessoa do fim: {fila[len(fila)-1]}')
