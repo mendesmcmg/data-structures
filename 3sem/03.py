@@ -12,3 +12,15 @@
 # Observações
 # No primeiro exemplo, a chamada para n=3 aplica a fórmula e lida com os valores 1,3,5, e calcula o resultado adicionando o valor do primeiro elemento (1) à soma dos demais (3,5). A chamada recursiva à função repete o processo, somando o primeiro elemento  (3) à soma dos demais (5). Por fim, o processo é repetido para o último elemento (5) e os demais (nenhum).
 
+# n = int(input())
+
+# def quadrado(n):
+#     sum = 0
+#     for num in range(1, n):
+#         if num == n:
+#             print({num})
+#         else:
+#             sum = 2*num - 1
+#             print(f'{num} + soma([{n-sum , sum}])')
+
+# quadrado(n)
