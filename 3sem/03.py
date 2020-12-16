@@ -24,3 +24,18 @@
 #             print(f'{num} + soma([{n-sum , sum}])')
 
 # quadrado(n)
+
+# RESPOSTA
+
+# def quadrado(lista):
+#     if lista == []:
+#         lista = [0]
+#     if len(lista) == 1:
+#         print(f'{lista[0]}')
+#         return lista[0]
+#     print(f'{lista[0]} + soma({lista[1:]})')
+#     return lista[0] + quadrado(lista[1:])
+
+# n = int(input())
+# lista = [2 * x - 1 for x in range(1, n + 1)]
+# print(f'---------------\n{n} ** 2 == {quadrado(lista)}')

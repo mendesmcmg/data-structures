@@ -21,3 +21,14 @@
 # fibonacci(lista, 10)
 # print(lista)
 # [0, 1, 1, 2, 3, 5, 8, 13, 21, 34]
+
+#RESPOSTA
+# def fibonacci(lista, n):
+#     if len(lista) < n:
+#         if len(lista) < 1:
+#             lista.append(0)
+#         elif len(lista) < 2:
+#             lista.append(1)
+#         elif len(lista) < n:
+#             lista.append(lista[-1] + lista[-2])
+#         fibonacci(lista, n)

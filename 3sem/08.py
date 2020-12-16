@@ -20,3 +20,13 @@
 # 5
 # 123 2357
 # 1
+
+#RESPOSTA
+# def mdc(a, b):
+#     if b == 0:
+#         return a
+#     else:
+#         return mdc(b, a % b)
+
+# a, b = [int(x) for x in input().split()]
+# print(mdc(a, b))

@@ -23,3 +23,31 @@
 # BATATA
 # print(decompress(6040945729))
 # ABACATE
+
+#RESPOSTA
+# NUM_BITS = 5
+
+# def letra(numero):
+#     # Representação numérica da letra
+#     cod_letra = ord('A') + numero - 1
+#     # Representação simbólica da letra
+#     return chr(cod_letra)
+
+# def decompress(x):
+#     if x == 0:
+#         return ''
+        
+#     bits = x % (2 ** NUM_BITS)  # Valor armazenado nos NUM_BITS menos significativos
+#     x = x // (2 ** NUM_BITS) # Shift dos bits menos significativos
+
+#     return f'{letra(bits)}{decompress(x)}'
+
+# # Versão com manipulação dos bits
+# def decompress(x):
+#     if x == 0:
+#         return ''
+
+#     bits = x & (2 ** NUM_BITS - 1)
+#     x = x >> NUM_BITS
+
+#     return f'{letra(bits)}{decompress(x)}'

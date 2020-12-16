@@ -33,3 +33,14 @@ def fibonacci(nfibo):
   return counter
 
 print(f'Fib({nfibo}) = {fibonacci(nfibo)} ({counter} chamadas)')
+
+# def Fib(n):
+#     if n < 2:
+#         return (1, n)
+#     chamadas_1, valor_1 = Fib(n - 1)
+#     chamadas_2, valor_2 = Fib(n - 2)
+    
+#     return (1 + chamadas_1 + chamadas_2, valor_1 + valor_2)
+
+# n = int(input())
+# chamadas, valor =  Fib(n)
